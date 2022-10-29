@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.convertCont{
+    width: 480px;
+    height: 130px;
+    border-radius: 12px;
+    padding: 10px;
+    display: grid;
+    grid-row: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 39px 38px 56px -57px rgba(0,0,0,0.84);
+    -moz-box-shadow: 39px 38px 56px -57px rgba(0,0,0,0.84);
+    box-shadow: 39px 38px 56px -57px rgba(0,0,0,0.84) 
+}
+
+.varCont{
+    display: flex;
+    flex-direction: row;
+    width: 120%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.degreeCont{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+.degrees{
+    width:90px;
+    height: 18px;
+}
+.optionCont{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+.selectTemp{
+    width:100px;
+    height: 22px;
+}
+
+button{
+    background-color: rgb(85, 137, 232);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    height: 24px;
+    align-self: flex-end;
+    width: 90px;
+    
+}
+button:active{
+    background-color: rgb(85, 137, 232, 50%);
+    color:rgb(85, 137, 232);
+}
+p{
+    margin: 0;
+}
+
+label{
+    color: gray;
+    font-size: 10px;
+}
+
+.symbol{
+    display: flex;
+}
